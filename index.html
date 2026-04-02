@@ -7,28 +7,57 @@
 </head>
 <body>
 
+  <!-- Navbar -->
+  <nav>
+    <h2>Huzaifa</h2>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
   <header>
-    <h1>Huzaifa Jutt</h1>
-    <p>Web Developer</p>
+    <h1>Hi, I'm Huzaifa 👋</h1>
+    <p>Frontend Web Developer</p>
+    <button onclick="scrollToSection()">View My Work</button>
   </header>
 
-  <section>
+  <!-- About -->
+  <section id="about">
     <h2>About Me</h2>
-    <p>I am a passionate web developer skilled in HTML, CSS, and JavaScript.</p>
+    <p>I build modern, responsive, and user-friendly websites using HTML, CSS, and JavaScript.</p>
   </section>
 
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li>Portfolio Website</li>
-      <li>Restaurant Website</li>
-    </ul>
+  <!-- Projects -->
+  <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio with responsive design.</p>
+        <button>View</button>
+      </div>
+
+      <div class="card">
+        <h3>Restaurant Website</h3>
+        <p>Dynamic restaurant website with menu.</p>
+        <button>View</button>
+      </div>
+
+    </div>
   </section>
 
-  <section>
-    <h2>Contact</h2>
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
     <p>Email: your@email.com</p>
   </section>
 
+  <script src="script.js"></script>
 </body>
 </html>
